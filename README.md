@@ -17,6 +17,7 @@
 ## 📖 Descrição
 
 O **Tor** (sigla original de *The Onion Router*) é um conjunto de protocolos e programas de código aberto, mantidos pela organização sem fins lucrativos **The Tor Project**, que permite comunicação anônima na Internet.
+O Tor foi lançado publicamente em 20 de setembro de 2002
 
 ### O que é?
 É uma rede de servidores voluntários que roteia o tráfego do usuário por múltiplos nós (roteamento em camadas, ou *onion routing*), de forma que nenhum ponto único da rede conheça ao mesmo tempo a origem e o destino da conexão. O produto mais conhecido é o **Tor Browser**, um navegador pré-configurado para usar essa rede.
