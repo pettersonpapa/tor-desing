@@ -102,3 +102,4 @@ Requisitos do **Tor Browser** conforme o suporte oficial do Tor Project:
 - Murilo Roselini
 - Raphael Souza Araujo Barbosa
 - Matheus Avanzo dos Santos
+- Leticia Belo do Nascimento
