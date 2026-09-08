@@ -1,10 +1,20 @@
-# Tor 🧅
+<p align="center">
+  <img src="./banner.svg" alt="Tor - navegação anônima e resistência à censura" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/licen%C3%A7a-Software%20Livre%20(Open%20Source)-68b030">
+  <img src="https://img.shields.io/badge/linguagem-C-blue">
+  <img src="https://img.shields.io/badge/Arti-Rust-orange">
+  <img src="https://img.shields.io/badge/base-Firefox%20ESR%20140-7d4698">
+  <img src="https://img.shields.io/badge/plataformas-Windows%20|%20macOS%20|%20Linux%20|%20Android-lightgrey">
+</p>
 
 > Software livre e de código aberto para navegação anônima e resistência à censura na Internet.
 
 ---
 
-## Descrição
+## 📖 Descrição
 
 O **Tor** (sigla original de *The Onion Router*) é um conjunto de protocolos e programas de código aberto, mantidos pela organização sem fins lucrativos **The Tor Project**, que permite comunicação anônima na Internet.
 
@@ -24,7 +34,15 @@ O **Tor** (sigla original de *The Onion Router*) é um conjunto de protocolos e 
 
 ---
 
-## Público-alvo
+## 🧅 Como funciona
+
+<p align="center">
+  <img src="./como-funciona.svg" alt="Diagrama de funcionamento do Tor" width="100%">
+</p>
+
+---
+
+## 🎯 Público-alvo
 
 - Usuários comuns preocupados com privacidade online.
 - Jornalistas, ativistas e defensores de direitos humanos.
@@ -35,7 +53,7 @@ O **Tor** (sigla original de *The Onion Router*) é um conjunto de protocolos e 
 
 ---
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
 - Navegação anônima com ocultação do endereço IP real do usuário.
 - Roteamento do tráfego por múltiplos nós (circuitos de três saltos por padrão).
@@ -49,19 +67,21 @@ O **Tor** (sigla original de *The Onion Router*) é um conjunto de protocolos e 
 
 ---
 
-## Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 Informações baseadas na documentação e nos repositórios oficiais do The Tor Project.
 
-- **C** — linguagem do *daemon* Tor original (conhecido como *little-t tor* ou *c-tor*), responsável pela conexão à rede. É integrado ao navegador via proxy SOCKS5.
-- **Rust** — linguagem do **Arti**, a reimplementação completa do Tor iniciada em 2020 e considerada pronta para produção desde a versão 1.0.0 (2022). Escolhida por oferecer segurança de memória superior ao C.
-- **Mozilla Firefox ESR (Extended Support Release)** — base do Tor Browser. As versões estáveis atuais (Tor Browser 15.0) são construídas sobre o Firefox ESR 140.
-- **JavaScript / HTML / CSS** — tecnologias da interface do navegador (herdadas do Firefox).
-- **Python** — utilizada em ferramentas auxiliares e de automação do projeto.
+| Tecnologia | Onde é usada |
+|---|---|
+| **C** | *Daemon* Tor original (*little-t tor* / *c-tor*), responsável pela conexão à rede — integrado ao navegador via proxy SOCKS5. |
+| **Rust** | **Arti**, a reimplementação completa do Tor iniciada em 2020 e pronta para produção desde a versão 1.0.0 (2022). Escolhida por oferecer segurança de memória superior ao C. |
+| **Mozilla Firefox ESR** | Base do Tor Browser. As versões estáveis atuais (Tor Browser 15.0) são construídas sobre o Firefox ESR 140. |
+| **JavaScript / HTML / CSS** | Interface do navegador (herdada do Firefox). |
+| **Python** | Ferramentas auxiliares e de automação do projeto. |
 
 ---
 
-## Requisitos técnicos para utilização
+## 💻 Requisitos técnicos para utilização
 
 Requisitos do **Tor Browser** conforme o suporte oficial do Tor Project:
 
@@ -75,7 +95,7 @@ Requisitos do **Tor Browser** conforme o suporte oficial do Tor Project:
 
 ---
 
-## Desenvolvedores
+## 👨‍💻 Desenvolvedores
 
 - Petterson Augusto Papa de Souza
 - Paulo Henrique Alves de Almeida
